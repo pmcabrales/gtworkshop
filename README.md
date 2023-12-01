@@ -31,16 +31,16 @@ After that it's time to code! We'll build step by step a very basic integration 
 ### Let's start
 #### Challenge 0 - Preparing the field. Basic configuration.
 
-Checkout code from branch [gtapiworkshop/challenge-0](https://stash.guidewire.com/users/pmartnezcabrales/repos/igworkshop/browse/README.md?at=challenge-0)
+Checkout code from branch [gtapiworkshop/challenge-0](https://github.com/pmcabrales/gtworkshop/blob/challenge-0/README.md?at=challenge-0)
 
 #### Challenge 1 - Creating our first feature
 
-Checkout code from branch [gtapiworkshop/challenge-1](https://stash.guidewire.com/users/pmartnezcabrales/repos/igworkshop/browse/README.md?at=challenge-1)
+Checkout code from branch [gtapiworkshop/challenge-1](https://github.com/pmcabrales/gtworkshop/blob/challenge-1/README.md?at=challenge-1)
 
 #### Challenge 2 - Calling step scenario
 
-Checkout code from branch [gtapiworkshop/challenge-2](https://stash.guidewire.com/users/pmartnezcabrales/repos/igworkshop/browse/README.md?at=challenge-2)
+Checkout code from branch [gtapiworkshop/challenge-2](https://github.com/pmcabrales/gtworkshop/blob/challenge-2/README.md?at=challenge-2)
 
 #### Challenge 3 - Create a report
 
-Checkout code from branch [gtapiworkshop/challenge-3](https://stash.guidewire.com/users/pmartnezcabrales/repos/igworkshop/browse/README.md?at=challenge-3)
+Checkout code from branch [gtapiworkshop/challenge-3](https://github.com/pmcabrales/gtworkshop/blob/challenge-3/README.md?at=challenge-3)
