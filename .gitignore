@@ -1,0 +1,7 @@
+repository/
+.gradle/
+.idea/
+api/build/classes/java/main/gw/GtApiBridge.class
+api/build/
+libs/
+gradle/
