@@ -5,3 +5,7 @@ api/build/classes/java/main/gw/GtApiBridge.class
 api/build/
 libs/
 gradle/
+behavior/build/classes/java/main/gw/CucumberStep.class
+behavior/build/
+load/build/
+reports/

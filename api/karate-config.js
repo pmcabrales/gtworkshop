@@ -3,8 +3,6 @@ function fn() {
     var configFun = read('classpath:gw/gtapi/util/testsconfig/gw-config-utils.js');
     var config = configFun();
 
-    config.policyDataContainer = Java.type('pc.PolicyDataContainer');
-
     //Configure AUT URLs
     config.ccBaseUrl = java.lang.System.getenv('ccBaseUrl') ? java.lang.System.getenv('ccBaseUrl') : 'DEFAULT_CC_URL';
     config.pcBaseUrl = java.lang.System.getenv('pcBaseUrl') ? java.lang.System.getenv('pcBaseUrl') : 'DEFAULT_PC_URL';

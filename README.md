@@ -24,8 +24,6 @@ It's mandatory to have installed the next tools before the workshop beginning (D
 
 ### What are we going to do?
 
-![workshop_structure](workshop_str.png?raw=true "Workshop Structure")
-
 First of all we are creating a new GT Framework project from a template, and we will go through the most important pieces of code and configuration.
 
 After that it's time to code! We'll build step by step a very basic integration test using GT:API for an IG application running in our local environment.
