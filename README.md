@@ -1,46 +1,13 @@
-# Testing an IGApp for beginners workshop
+# Challenge 0
 
-### Goal
+Let's prepare the field.
 
-The main goal of this workshop is to learn the basics of GT:API framework and how to test an IGApp from the scratch. At the end of this workshop you'll know the following:
+## Step 1
+Run the App we are testing.
+Check that the endpoints are available using SwaggerUI.
+http://localhost:8065/swagger-ui.html#
 
-* The GT:API Architecture
-
-* Write integration tests for an IG App
-
-### Requirements
-
-Good knowledge of Java.
-
-It's mandatory to have installed the next tools before the workshop beginning (Don't hesitate to contact the organizers if you have any problem):
-
-* Java 11 SDK https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html
-* GIT
-* Preferred IDE. We will use IntelliJ Community.
-* Go to IntelliJ’s marketplace and install these plugins:
-  * Cucumber for Java 
-  * Scala
-  * Gherkin
-
-### What are we going to do?
-
-First of all we are creating a new GT Framework project from a template, and we will go through the most important pieces of code and configuration.
-
-After that it's time to code! We'll build step by step a very basic integration test using GT:API for an IG application running in our local environment.
-
-### Let's start
-#### Challenge 0 - Preparing the field. Basic configuration.
-
-Checkout code from branch [gtapiworkshop/challenge-0](https://stash.guidewire.com/users/pmartnezcabrales/repos/igworkshop/browse/README.md?at=challenge-0)
-
-#### Challenge 1 - Creating our first feature
-
-Checkout code from branch [gtapiworkshop/challenge-1](https://stash.guidewire.com/users/pmartnezcabrales/repos/igworkshop/browse/README.md?at=challenge-1)
-
-#### Challenge 2 - Calling step scenario
-
-Checkout code from branch [gtapiworkshop/challenge-2](https://stash.guidewire.com/users/pmartnezcabrales/repos/igworkshop/browse/README.md?at=challenge-2)
-
-#### Challenge 3 - Create a report
-
-Checkout code from branch [gtapiworkshop/challenge-3](https://stash.guidewire.com/users/pmartnezcabrales/repos/igworkshop/browse/README.md?at=challenge-3)
+## Step 2
+Quick overview of the project structure and configuration files:
+* karate-config.js
+* ScenariosRunner
