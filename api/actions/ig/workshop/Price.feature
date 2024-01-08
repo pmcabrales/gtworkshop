@@ -1,4 +1,4 @@
-@IGWorkshop
+#TODO: Add tag
 Feature: To get prices
   As a system user I want to get the price of a product in a specific time
 
@@ -26,7 +26,7 @@ Feature: To get prices
     And assert response == '35.5 EUR'
 
   @id=GetPrice
-  @ignore
+  #TODO: ignore the step. Cannot execute it individually
   Scenario: Get price of a product
     * def requiredArguments = ['productId','date']
     Given url requestUrl

@@ -1,4 +1,4 @@
-@IGWorkshop
+#TODO: Add tag
 Feature: To get and compare prices for spare parts
   As a system user I want to get the price of a spare part in a specific time
 

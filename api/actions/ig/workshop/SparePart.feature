@@ -1,4 +1,4 @@
-@IGWorkshop
+#TODO: Add tag
 Feature: To retrieve vehicle spare parts
   As a system user I want to retrieve spare parts available for policy vehicles
 
@@ -29,7 +29,7 @@ Feature: To retrieve vehicle spare parts
     Then assert responseStatus == 404
 
   @id=GetFirstSparePart
-  @ignore
+  #TODO: ignore the step. Cannot execute it individually
   Scenario: Get first available spare part from a vehicle
     * def requiredArguments = ['brandCode','modelCode','modelYear','sparePartType']
     Given url requestUrl
