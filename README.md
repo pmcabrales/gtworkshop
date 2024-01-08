@@ -1,22 +1,16 @@
 [< back](https://github.com/pmcabrales/gtworkshop/blob/master/README.md?at=master)
 
-# Challenge 3
+# Challenge 2
 
-Finally, we execute the suite and create the report.
+Now, let's create our functional test
 
 ## Step 1
-Add the ScenariosRunner class.
+Create an action scenario in the sparePart feature that will receive 4 arguments (brandCode, modelCode, modelYear and sparePartType) and will return the first spare part found
 
 ## Step 2
-Add the tags to the features we want to include in our execution and reports. 
-Also, tag the steps we want to skip.
+Create an action scenario in the Price feature that will receive 2 arguments (productId and date) and will return a price
 
 ## Step 3
-Configure the tags in our ScenariosRunner.
-
-## Step 4
-Run the gradle task "runTestSuite" adding our runner to the configuration (-DtestSuite=ScenariosRunner).
-
-![img.png](img.png)
-
-Now you can check the generated reports.
+Create the new feature class SparePartPrice.
+We will check that the price of the OPEL Astra mirror has a 10% yearly increment in price.
+To do that we will call the two actions created in the previous steps.

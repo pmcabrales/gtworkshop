@@ -1,4 +1,3 @@
-#TODO: Add tag
 Feature: To get prices
   As a system user I want to get the price of a product in a specific time
 
@@ -25,14 +24,8 @@ Feature: To get prices
     Then assert responseStatus == 200
     And assert response == '35.5 EUR'
 
-  @id=GetPrice
-  #TODO: ignore the step. Cannot execute it individually
-  Scenario: Get price of a product
-    * def requiredArguments = ['productId','date']
-    Given url requestUrl
-    And param productId = scenarioArgs.productId
-    And param date = scenarioArgs.date
-    When method GET
-    Then assert responseStatus == 200
-    * setStepVariable('price', response)
+  #TODO: Create a new scenario to get the price of a product
+  #It will receive 2 arguments ['productId','date']
+  #Set the response in a step variable
+  #Remember to tag it as a callable step
 

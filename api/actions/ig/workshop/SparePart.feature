@@ -1,4 +1,3 @@
-#TODO: Add tag
 Feature: To retrieve vehicle spare parts
   As a system user I want to retrieve spare parts available for policy vehicles
 
@@ -28,15 +27,7 @@ Feature: To retrieve vehicle spare parts
     When method GET
     Then assert responseStatus == 404
 
-  @id=GetFirstSparePart
-  #TODO: ignore the step. Cannot execute it individually
-  Scenario: Get first available spare part from a vehicle
-    * def requiredArguments = ['brandCode','modelCode','modelYear','sparePartType']
-    Given url requestUrl
-    And param brandCode = scenarioArgs.brandCode
-    And param modelCode = scenarioArgs.modelCode
-    And param modelYear = scenarioArgs.modelYear
-    And param sparePartType = scenarioArgs.sparePartType
-    When method GET
-    Then assert responseStatus == 200
-    * setStepVariable('sparePart', response[0])
+  #TODO: Create a new scenario to get the first available spare part from a vehicle
+  #It will receive 4 arguments ['brandCode','modelCode','modelYear','sparePartType']
+  #Set the response in a step variable
+  #Remember to tag it as a callable step
