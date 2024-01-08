@@ -9,3 +9,4 @@ behavior/build/classes/java/main/gw/CucumberStep.class
 behavior/build/
 load/build/
 reports/
+api/target/karate.log
