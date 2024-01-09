@@ -1,16 +1,12 @@
 [< back](https://github.com/pmcabrales/gtworkshop/blob/master/README.md?at=master)
 
-# Challenge 2
+# Challenge 1
 
-Now, let's create our functional test
+Let's create our action features
 
 ## Step 1
-Create an action scenario in the sparePart feature that will receive 4 arguments (brandCode, modelCode, modelYear and sparePartType) and will return the first spare part found
+Create the new feature class SparePart.
+In this class create some scenarios for testing the /spareParts endpoint
 
 ## Step 2
-Create an action scenario in the Price feature that will receive 2 arguments (productId and date) and will return a price
-
-## Step 3
-Create the new feature class SparePartPrice.
-We will check that the price of the OPEL Astra mirror has a 10% yearly increment in price.
-To do that we will call the two actions created in the previous steps.
+Create a valid scenario in Price.feature
