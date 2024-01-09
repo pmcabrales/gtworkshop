@@ -7,7 +7,6 @@ function fn() {
     config.ccBaseUrl = java.lang.System.getenv('ccBaseUrl') ? java.lang.System.getenv('ccBaseUrl') : 'DEFAULT_CC_URL';
     config.pcBaseUrl = java.lang.System.getenv('pcBaseUrl') ? java.lang.System.getenv('pcBaseUrl') : 'DEFAULT_PC_URL';
     //TODO: Specify the URL of the application under test
-    config.igBaseUrl = java.lang.System.getenv('igBaseUrl') ? java.lang.System.getenv('igBaseUrl') : 'http://localhost:8065';
 
     //AUT Instance Healthcheck
     appHealthCheck(config.ccBaseUrl, false);
